@@ -1,10 +1,13 @@
 POST http://localhost:8080/events
 content-type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Q1QGV4YW1wbGUuY29tIiwiZXhwIjoxNzYwNzE2NzMwLCJ1c2VySWQiOjN9.JHQj7v5uy3HBvMU7y6NJxoJWW4yY1yzcIKzpEAlzZVM
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYwOTY5NDEzLCJ1c2VySWQiOjJ9.0WgZXJnlk8Aq6nm5Fk1pv6uCxKXjSzRU8LgDyqpoqCU
 
 {
-  "name": "Test event 5",
-  "description": "A test event 2",
-  "location": "A test location 2",
+  "name": "Test event 1",
+  "description": "A test event 1",
+  "location": "A test location 1",
   "dateTime": "2025-01-02T15:30:00.000Z"
 }
+
+# user1 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYwOTY5MjkxLCJ1c2VySWQiOjF9.YUdkdqAP6Na92h70QEM-ZnzFCpPhSi9gtCHiqxzIH5o
+# user2 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYwOTY5NDEzLCJ1c2VySWQiOjJ9.0WgZXJnlk8Aq6nm5Fk1pv6uCxKXjSzRU8LgDyqpoqCU
